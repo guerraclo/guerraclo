@@ -1,0 +1,69 @@
+/*---------- BEGIN PRODUCTS PER ROW AND MARGINS CSS -----------------*/
+#products, #related_products, #featured_products {font-size:0px}
+/* ---TWO Items Per Row; 0% to 3% Margin--- */
+.ii_ppr.mg-O .product {margin:0% 0% 0% 0%;width:50%}
+.ii_ppr.mg-OpV .product {margin:0% 0.5% 0.5% 0%;width:49.75%}
+.ii_ppr.mg-I .product {margin:0% 1% 1% 0%;width:49.5%}
+.ii_ppr.mg-IpV .product {margin:0% 1.5% 1.5% 0%;width:49.25%}
+.ii_ppr.mg-II .product {margin:0% 2% 2% 0%;width:49%}
+.ii_ppr.mg-IIpV .product {margin:0% 2.5% 2.5% 0%;width:48.75%}
+.ii_ppr.mg-III .product {margin:0% 3% 3% 0%;width:48.5%}
+/* ---THREE Items Per Row; 0% to 3% Margin--- */
+.iii_ppr.mg-O .product {margin:0% 0% 0% 0%;width:33.3333%}
+.iii_ppr.mg-OpV .product {margin:0% 0.5% 0.5% 0%;width:33%}
+.iii_ppr.mg-I .product {margin:0% 1% 1% 0%;width:32.6667%}
+.iii_ppr.mg-IpV .product {margin:0% 1.5% 1.5% 0%;width:32.3333%}
+.iii_ppr.mg-II .product {margin:0% 2% 2% 0%;width:32%}
+.iii_ppr.mg-IIpV .product {margin:0% 2.5% 2.5% 0%;width:31.6667%}
+.iii_ppr.mg-III .product {margin:0% 3% 3% 0%;width:31.3333%}
+/* ---FOUR Items Per Row; 0% to 3% Margin--- */
+.iv_ppr.mg-O .product {margin:0% 0% 0% 0%;width:25%}
+.iv_ppr.mg-OpV .product {margin:0% 0.5% 0.5% 0%;width:24.625%}
+.iv_ppr.mg-I .product {margin:0% 1% 1% 0%;width:24.250%}
+.iv_ppr.mg-IpV .product {margin:0% 1.5% 1.5% 0%;width:23.875%}
+.iv_ppr.mg-II .product {margin:0% 2% 2% 0%;width:23.5%}
+.iv_ppr.mg-IIpV .product {margin:0% 2.5% 2.5% 0%;width:23.125%}
+.iv_ppr.mg-III .product {margin:0% 3% 3% 0%;width:22.75%}
+/* ---FIVE Items Per Row; 0% to 3% Margin--- */
+.v_ppr.mg-O .product {margin:0% 0% 0% 0%;width:20%}
+.v_ppr.mg-OpV .product {margin:0% 0.5% 0.5% 0%;width:19.6%}
+.v_ppr.mg-I .product {margin:0% 1% 1% 0%;width: 19.2%}
+.v_ppr.mg-IpV .product {margin:0% 1.5% 1.5% 0%;width:18.8%}
+.v_ppr.mg-II .product {margin:0% 2% 2% 0%;width:18.4%}
+.v_ppr.mg-IIpV .product {margin:0% 2.5% 2.5% 0%;width:18%}
+.v_ppr.mg-III .product {margin:0% 3% 3% 0%;width:17.6%}
+/* ---Last Item In Row (No Margin)--- */
+@media only screen and  (min-width: 768px) {
+.ii_ppr .product.last, .iii_ppr .product.last, .iv_ppr .product.last, .v_ppr .product.last {margin-right: 0%}
+.ii_ppr .product:nth-of-type(2n+2), .iii_ppr .product:nth-of-type(3n+3), .iv_ppr .product:nth-of-type(4n+4), .v_ppr .product:nth-of-type(5n+5) {margin-right: 0%}
+}
+/*============= Mobile View PPR - Media Screen 767px========================*/
+@media only screen and  (max-width: 767px) {
+/* ---DEFAULT: TWO Items Per Row; 0% to 3% Margin--- */
+.mg-O .product {margin:0% 0% 0% 0%;width:50% !important}
+.mg-OpV .product {margin:0% 0.5% 0.5% 0%;width:49.75% !important}
+.mg-I .product {margin:0% 1% 1% 0%;width:49.5% !important}
+.mg-IpV .product {margin:0% 1.5% 1.5% 0%;width:49.25% !important}
+.mg-II .product {margin:0% 2% 2% 0%;width:49% !important}
+.mg-IIpV .product {margin:0% 2.5% 2.5% 0%;width:48.75% !important}
+.mg-III .product {margin:0% 3% 3% 0%;width:48.5% !important}
+.product:nth-child(2n+2) {margin-right: 0% !important}
+/* ---THREE Items Per Row; 0% to 3% Margin--- */
+.mobile_3_ppr.mg-O .product {margin:0% 0% 0% 0%;width:33.3333% !important}
+.mobile_3_ppr.mg-OpV .product {margin:0% 0.5% 0.5% 0%;width:33% !important}
+.mobile_3_ppr.mg-I .product {margin:0% 1% 1% 0%;width:32.6667% !important}
+.mobile_3_ppr.mg-IpV .product {margin:0% 1.5% 1.5% 0%;width:32.3333% !important}
+.mobile_3_ppr.mg-II .product {margin:0% 2% 2% 0%;width:32% !important}
+.mobile_3_ppr.mg-IIpV .product {margin:0% 2.5% 2.5% 0%;width:31.6667% !important}
+.mobile_3_ppr.mg-III .product {margin:0% 3% 3% 0%;width:31.3333% !important}
+.mobile_3_ppr .product:nth-child(3n+3) {margin-right: 0% !important}
+/* ---ONE Item Per Row; 0% to 3% Margin--- */
+.mobile_1_ppr.mg-O .product {margin:0% 0% 0% 0%;width:100% !important}
+.mobile_1_ppr.mg-OpV .product {margin:0% 0% 0.5% 0%;width:100% !important}
+.mobile_1_ppr.mg-I .product {margin:0% 0% 1% 0%;width:100% !important}
+.mobile_1_ppr.mg-IpV .product {margin:0% 0% 1.5% 0%;width:100% !important}
+.mobile_1_ppr.mg-II .product {margin:0% 0% 2% 0%;width:100% !important}
+.mobile_1_ppr.mg-IIpV .product {margin:0% 0% 2.5% 0%;width:100% !important}
+.mobile_1_ppr.mg-III .product {margin:0% 0% 3% 0%;width:100% !important}
+}
+/*---------- END PRODUCTS PER ROW AND MARGINS CSS -----------------*/
